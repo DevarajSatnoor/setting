@@ -1,0 +1,214 @@
+.sigin-page-parent{
+    background-image: linear-gradient(to top, #00c6fb 0%, #2676C2 100%);
+    min-height: 100vh;
+}   
+.parent-signin{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.logo-header-parent{
+    margin: 25px 0px;
+    width: 90%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.logo-header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lang-bar{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    gap: 20px;
+}
+/* .help-icon{
+    font-size: 2.8rem;
+} */
+.lang-sel{
+    border: 1px solid #fff;
+}
+.lang-label{
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#language{
+    border: none;
+    /* color: #fff; */
+    background-color: #2676C2;
+}
+#language option{
+    border: none;
+    /* color: #fff; */
+    /* background-color: #2676C2; */
+}
+
+/* section2 */
+
+.signin-parent{
+    width: 1200px;
+    border: 1px solid #DDDDDD;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+    margin-top: 8px;
+}
+.signin-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    gap:55px;
+
+}
+.signin-left{
+    width: 40%;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    flex-direction: column;
+    /* padding: 20px; */
+    gap: 25px 0px ;
+    margin: 25px 0px;
+}
+.signin-header{
+    color: #2676C2;
+    /* background-color: #fff; */
+    /* font-family: Poppins; */
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.sigin-mobile{
+    color: #434343;
+    /* background-color: #fff; */
+    /* font-family: Poppins; */
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.sigin-label{
+    border:  1px solid #B9B9B9;
+    border-radius: 0.125rem;
+    background-color: #FFF;
+}
+
+.sigin-label input:focus{
+    color: #2676C2;
+    outline-color: #2676C2;
+    width: 400px;
+
+}
+#mobileNumber{
+    width: 400px;
+    /* background-color: #FFF; */
+    border: 1px #B9B9B9;
+    padding: 20px 20px;
+    font-size: 1.2rem;
+}
+.sigin-otp{
+    width: 400px;
+    background-color: #2676C2;
+    color: #FFF;
+    border-radius: 0.125rem;
+    border: none;
+    padding: 20px 20px;
+}
+ 
+.sigin-register{
+    width: 100%;
+    border-radius: 0.125rem;
+    border: 1px solid #2676C2;
+    padding: 20px 20px;
+    color: #2676C2;
+    /* background-color: #FFF; */
+    /* font-family: Poppins; */
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* sigin-right */
+.sigin-right{
+    width: 685px;
+    height: 316px;
+    background-color: #2676C2   ;
+}
+
+/* section 3 */
+.line-parent{
+    margin: 29px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line-para{
+    color:  #FFFFFF;
+    /* font-family: Poppins; */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.6;
+}
+
+/* section4 */
+.icon-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 50px;
+    /* background-color: #FFF; */
+}
+
+
+/* Popup message styles */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #2676C2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.popup.active {
+    display: block;
+}
+
+.popup-content {
+    color: #2676C2;
+    font-size: 14px;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #2676C2;
+    /* color: #fff ; */
+    font-weight: bold;
+}

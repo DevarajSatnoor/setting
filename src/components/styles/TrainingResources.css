@@ -1,0 +1,136 @@
+.TrainingResources {
+    width: 100%;
+  }
+  /* .BreadCrumbs {
+    width: 95%;
+    background: hotpink;
+    margin: auto;
+  } */
+  /* .Dashboard {
+    color: #888;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    top: 1rem;
+  } */
+  
+  /* .Training_Resources {
+    color: #2676c2;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: 1rem;
+  } */
+  .Main_Content {
+    width: 95%;
+    max-height: 16rem;
+    margin: auto;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    border: 1px solid #eee;
+    background: var(--icon-color, #fff);
+    display: flex;
+  }
+  .Program {
+    width: 25%;
+    /* background: #2676c2; */
+    max-height: 16rem;
+    height: 90%;
+    margin: auto;
+    border-right: 0.125rem solid #EEE;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: left;
+  }
+  .Resources {
+    width: 70%;
+    /* background: #e1e126; */
+    height: 15rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Resources p,
+  .Program p {
+    color: #333;
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0.3rem;
+  }
+  .R_Content h2 ,
+  .Program h2 {
+    color: #535353;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .Program h3 {
+    color: #2676c2;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .Program button {
+    width: 4.25rem;
+    height: 0.875rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    border: 0.2px dashed #2676c2;
+    background: rgba(38, 118, 194, 0.2);
+    color: #2676c2;
+    font-family: Poppins;
+    font-size: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .R_Content{
+      width: 98%;
+      margin: auto;
+      height: 80%;
+      border: #EEE 1px solid;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      direction: rtl;
+      gap: 1rem;
+      padding-top: 0.5rem;
+      align-items: flex-end;
+      padding-left: 30px;
+  }
+  /* customised scrollbar */
+  
+  .R_Content::-webkit-scrollbar {
+    width: 5px;
+  }
+  .R_Content::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  .R_Content::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px; /* Set border-radius for the thumb */
+  }
+  
+  
+  .R_Content h2{
+      width: auto;
+      /* text-align: left; */
+      display: flex;
+      justify-content: center;
+    
+  }
+  

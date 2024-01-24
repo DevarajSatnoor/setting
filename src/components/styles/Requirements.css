@@ -1,0 +1,216 @@
+.Requirement {
+    width: 100%;
+    background: #FFF;
+}
+
+.Dashboard {
+    color: #888;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Require {
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Post_TJ {
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.BreadCrumbs {
+    margin: auto;
+    width: 95%;
+    padding: 1rem;
+}
+
+.Post_Buttons {
+    width: 95%;
+    margin: auto;
+    padding: 1rem;
+
+}
+
+.Post_Buttons button {
+    border-radius: 2.5rem;
+    border: 1px solid #b6adad;
+    background: rgba(220, 220, 220, 0.10);
+    /* for text */
+    color: #888;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.Post_Buttons button:hover,
+.Post_Buttons button:active,
+.Post_Buttons button:focus {
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 2.5rem;
+    border: 1px solid rgba(38, 118, 194, 0.20);
+    background: rgba(38, 118, 194, 0.10);
+}
+
+.Post_Training_content {
+    width: 95%;
+    margin: auto;
+}
+
+.Company,
+.Technology,
+.Type_Of_Training,
+.Mode_Of_Training,
+.Select_Experience,
+.Duration_Of_Time {
+    color: #333;
+    font-family: Poppins;
+    font-size: 1.150rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0;
+
+}
+
+.Company input {
+    border-radius: 0.125rem;
+    border: 1px solid #DADADA;
+    background: #FFF;
+    display: flex;
+    padding: 0.5625rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    width: 23.8rem;
+    height: 1.31rem;
+    color: #888;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+.Multi_S_I {
+    width: 41.3rem;
+    height: auto;
+}
+
+.RadioTOT {
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    gap: 3rem;
+    color: #535353;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.Type_Of_Training input[type="radio"] {
+    width: 1.2rem;
+    height: 1.2rem;
+    position: relative;
+    top: 0.25rem;
+    cursor: pointer;
+}
+
+.ParticipantCount h5,
+.SelectLocation h5,
+.Select_Experience h5 {
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 0.3rem;
+    margin-top: 1rem;
+}
+
+.RadioTOT_Count,
+.Radio_Duration_Count {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin: 0%;
+    border: #2676C2 1px solid;
+    width: fit-content;
+    height: 2rem;
+    border-radius: 0.3rem;
+}
+
+.RadioTOT_Count span ,
+.Radio_Duration_Count span {
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.RadioTOT_Count button {
+    border: none;
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+.Radio_MOT,
+.Radio_Duration {
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    gap: 3rem;
+    color: #535353;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.SelectLocation select{
+    width: fit-content;
+    height: 2rem;
+    border-radius: 0.125rem;
+    border: 1px solid #DADADA;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 0.855rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    outline: none;
+}

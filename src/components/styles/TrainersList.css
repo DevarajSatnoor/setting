@@ -1,0 +1,220 @@
+/* TrainersList.css */
+.trainers-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.trainer-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* perspective: 1000px; */
+  /* margin: 10px; */
+  margin-right: 20px;
+  margin-bottom: 20px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  min-width: 16.25rem;
+  min-height: 18.9375rem;
+  /* width: auto; */
+  /* flex-shrink: 0; */
+  border-radius: 0.625rem;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+  box-shadow: 1px 1px 1px 1px rgba(17, 17, 17, 0.1);
+}
+
+.centered-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-back {
+  position: absolute;
+  width: 100%;
+  min-width: 16.25rem;
+  min-height: 18.9375rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: rotateY(180deg);
+  background-color: #fff;
+  border: 3px solid #2676c2;
+  box-sizing: border-box;
+  border-radius: 0.625rem;
+  backface-visibility: hidden;
+  transition: transform 2s ease;
+}
+.card-back-top {
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.card-back-content {
+  display: flex;
+  justify-content:flex-end;
+  /* align-items: center; */
+  flex-direction: column;
+  font-size: 15px;
+  height: 8.85563rem;
+  width: 100%;
+}
+.card-back-image {
+  width: 6.00488rem;
+  height: 8.85563rem;
+  padding-top: 0.88rem;
+  padding-left: 0.94rem;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.session-list {
+  width: 9.8rem;
+  height: 1.375rem;
+  border-radius: 0.625rem 0rem 0rem 0.625rem;
+  background: #2676c2;
+  margin-top: 1.3rem;
+  margin-left: 0.11rem;
+}
+.session-list-span {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 0.63rem;
+}
+
+.profile-img {
+  width: 120px;
+  height: 130px;
+  border-radius: 20%;
+}
+.profile-img-back {
+  max-width: 91.23px;
+  max-height: 107.72px;
+  border-radius: 20%;
+}
+
+.card-back-name {
+  color: #2676c2;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 1.31rem 4.09rem 0.25rem 1.09rem;
+}
+.card-back-domain {
+  color: #6a6a6a;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 1.11rem;
+}
+
+.card-back-exp {
+  width: 5.5rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+  background: #00cf7f;
+  margin-top: 0.19rem;
+  text-align: end;
+}
+.card-back-exp p {
+  color: var(--icon-color, #fff);
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 0.38rem;
+  /* width: 3.875rem; */
+  /* height: 1.3125; */
+}
+.image-row {
+  display: flex;
+}
+.image-row img {
+  width: 30px;
+  height: 30px;
+  margin: 20px 5px 0px 5px;
+}
+.card-slider-img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.slider-container-parent {
+  margin-top: 0.38rem;
+}
+.slider-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.63rem;
+}
+.slider-container label{
+  margin-right: 0.31rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.slider-container input[type="range"] {
+  width: 11.375rem;
+  height: 0.1875rem;
+  flex-shrink: 0;
+}
+.slider-span {
+  color: #6a6a6a;
+  font-family: Poppins;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 0.25rem;
+}
+.slider-container input[type="range"]::-webkit-slider-thumb {
+  visibility: hidden;
+}
+.trainer-card:hover {
+  transform: rotateY(180deg);
+}
+
+.trainer-card:hover .centered-content {
+  display: flex;
+}
+
+.trainer-card:hover .card-back {
+  display: flex;
+}
+.trainer-available {
+  width: 11.375rem;
+  height: 1.5625rem;
+  flex-shrink: 0;
+  margin-left: 79px;
+  border-radius: 0.625rem 0rem;
+  background: #00CF7F;
+  text-align: center;
+}
+.trainer-available span{
+  color: var(--icon-color, #FFF);
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

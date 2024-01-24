@@ -1,0 +1,116 @@
+.Employee {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.80);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.Emp_Head {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.Emp_Details {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 23rem;
+    margin-top: 0%;
+    /* border: 1px solid #DDD; */
+}
+
+.Emp_Details h1 {
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Fill_Details {
+    background: #2676C2;
+    width: 40%;
+    height: 100.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Fill_Details form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin: auto;
+}
+
+.Fill_Details label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: var(--icon-color, #FFF);
+    font-family: Poppins;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Fill_Details input {
+    border-radius: 0.125rem;
+    width: 19.9rem;
+    height: 2.875rem;
+    flex-shrink: 0;
+    border: none;
+    font-family: Poppins;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: rgba(255, 255, 255, 0.20);
+    padding: 0 15px;
+    outline: none;
+}
+
+.Fill_Details input::placeholder {
+    color: #E9E9E9;
+}
+
+.Fill_Details button {
+    border-radius: 0.125rem;
+    background: var(--icon-color, #FFF);
+    width: 21.7125rem;
+    height: 2.875rem;
+    flex-shrink: 0;
+    color: #2676C2;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+.Details {
+    width: 60%;
+    background: var(--icon-color, #FFF);
+    height: 100.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
